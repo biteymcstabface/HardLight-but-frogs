@@ -63,6 +63,8 @@
   mutuallyExclusiveTraits:
   - ExtremeShadekinRegeneration
   - PlateletFactories
+  - NaturalRegen
+  - UnnaturalRegen
   requirements:
   - !type:TraitsRequirement
     traits:
@@ -96,6 +98,8 @@
   - ShadekinRegeneration
   - PlateletFactories
   - LightSensitivity
+  - NaturalRegen
+  - UnnaturalRegen
   requirements:
   - !type:TraitsRequirement
     traits:
