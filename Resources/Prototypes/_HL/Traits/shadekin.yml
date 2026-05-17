@@ -55,7 +55,7 @@
   name: hl-trait-shadekin-regeneration-name
   description: hl-trait-shadekin-regeneration-desc
   category: Physical
-  cost: 5
+  cost: 2
   replaceComponents: true
   whitelist:
     components:
@@ -70,7 +70,7 @@
     - ExtremeLightSensitivity
   components:
   - type: ShadekinRegeneration
-    healPerSecond: 0.08
+    healPerSecond: 0.18
     intervalSeconds: 1
     critMultiplier: 0.5
     healTypes:
@@ -87,7 +87,7 @@
   name: hl-trait-extreme-shadekin-regeneration-name
   description: hl-trait-extreme-shadekin-regeneration-desc
   category: Physical
-  cost: 10
+  cost: 5
   replaceComponents: true
   whitelist:
     components:
@@ -102,7 +102,7 @@
     - ExtremeLightSensitivity
   components:
   - type: ShadekinRegeneration
-    healPerSecond: 0.24
+    healPerSecond: 0.36
     intervalSeconds: 1
     critMultiplier: 0.5
     healTypes:
