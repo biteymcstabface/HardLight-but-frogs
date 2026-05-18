@@ -95,6 +95,8 @@
       types:
         Slash: 5 # Reduce?
   - type: Magboots #Vox Froguli - requested that vox have magboots effect to reflect their claws gripping surfaces. TODO-Make it only function when wearing footwraps or no shoes
+  - type: Puller #Vox Froguli - lizard-style pulling with tail. Vox are said to have prehensile tails.
+    needsHands: false
   - type: Sprite # Need to redefine the whole order to draw the tail over their gas tank
     layers:
     - map: [ "enum.HumanoidVisualLayers.TailBehind" ]
