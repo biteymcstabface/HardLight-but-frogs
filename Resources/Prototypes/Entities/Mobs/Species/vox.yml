@@ -98,10 +98,13 @@
   #VoxTalons - requested that vox have magboots effect to reflect their claws gripping surfaces. Requires them to have their grippers out, or be wearing only cloth wraps (or variants)
   #Lizard-style pulling with tail. Vox are said to have prehensile tails. What it do?
   #Uncloneable. Lore shit:tm: TODO: Make unborgable. Component doesn't like working when tied directly to the species
+  #Movement Speed - lets them move 10% faster in low-gravity
   - type: VoxTalons
   - type: Puller
     needsHands: false
   - type: Uncloneable
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 1.1
   #Vox Froguli - end
   - type: Sprite # Need to redefine the whole order to draw the tail over their gas tank
     layers:
