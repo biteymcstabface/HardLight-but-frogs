@@ -95,10 +95,10 @@
       types:
         Slash: 5 # Reduce?
   #Vox Froguli - Requested changes
-  #Magboots - requested that vox have magboots effect to reflect their claws gripping surfaces. TODO: Make it only function when wearing footwraps or no shoes, to incentivise getting them grippers out
+  #VoxTalons - requested that vox have magboots effect to reflect their claws gripping surfaces. Requires them to have their grippers out, or be wearing only cloth wraps (or variants)
   #Lizard-style pulling with tail. Vox are said to have prehensile tails. What it do?
   #Uncloneable. Lore shit:tm: TODO: Make unborgable. Component doesn't like working when tied directly to the species
-  - type: Magboots
+  - type: VoxTalons
   - type: Puller
     needsHands: false
   - type: Uncloneable
